@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="swett-memories.css">
         <link rel="stylesheet" href="swimming.css">
+        <link rel="stylesheet" href="calender.css">
         <title>tripco-improved</title>
       </head>
 <body>
@@ -54,51 +55,41 @@
             </div>
           </div>
           <!-- foot -->
-          <div id="hb-main-footer" class="hb-main-footer">
-            <div id="t-wrapper-hr" class="t-wrapper-hr">
-              <div id="footer-search-section" class="footer-search-section">
-                <div id="section-category" class="section-category">
-                  <ul>
-                    <li style="color: black;">Hostelry</li>
-                    <li>Flights</li>
-                    <li>Bus</li>
-                    <li>Cars</li>
-                  </ul>
+          <div class="calender-container">
+                <div class="calender-top">
+                    <ul>
+                        <li style="color: black;">Hostelry</li>
+                        <li>Flights</li>
+                        <li>Bus</li>
+                        <li>Cars</li>
+                    </ul>
+                    <span>Last searching</span>
                 </div>
-                <div id="section-last" class="section-last">
-                  <span>Last Searching</span>
-                  <i class="ri-arrow-right-s-line"></i>
+                <div id="lb" class="lb">
+                    <div id="lb-sim" class="lb-sim"></div>
+                    <div id="lb-lar" class="lb-lar"></div>
                 </div>
-              </div>
-              <div id="lb" class="lb">
-                <div id="lb-sim" class="lb-sim"></div>
-                <div id="lb-lar" class="lb-lar"></div>
-              </div>
-              <div id="search-items" class="search-items">
-                <div id="search-field" class="search-field">
-                  <div id="search-item-a" class="search-item-a">
-                    <span>Destination</span>
-                    <button><i class="ri-map-pin-line"></i> Bali, Indonesia</button>
-                  </div>
-                  <div id="search-item-a" class="search-item-a">
-                    <span>Check-in</span>
-                    <button><i class="ri-map-pin-line"></i> Sat, 2 Dec 2022</button>
-                  </div>
-                  <div id="search-item-a" class="search-item-a">
-                    <span>Check-out</span>
-                    <button><i class="ri-map-pin-line"></i> Sun, 3 Dec 2022</button>
-                  </div>
-                  <div id="search-item-a" class="search-item-a">
-                    <span>Room & Guest</span>
-                    <button><i class="ri-map-pin-line"></i> 1 Room, 2 Guest</button>
-                  </div>
-    
+                <div class="calender-bottom">
+                    <div class="destination field">
+                        <span>Destination</span>
+                        <button><i class="ri-map-pin-line"></i> Bali, Indonesia</button>
+                    </div>
+                    <div class="check-in field">
+                        <span>Check-in</span>
+                        <button><i class="ri-map-pin-line"></i> Sat, 2 Dec 2022</button>
+                    </div>
+                    <div class="check-out field">
+                        <span>Check-out</span>
+                        <button><i class="ri-map-pin-line"></i> Sun, 3 Dec 2022</button>
+                    </div>
+                    <div class="room-guest field">
+                        <span>Room & Guest</span>
+                        <button><i class="ri-map-pin-line"></i> 1 Room, 2 Guest</button>
+                    </div>
+                    <div class="search field">
+                        <button><i class="ri-search-line"></i> Search</button>
+                    </div>
                 </div>
-                <div id="search-button" class="search-button">
-                  <button><i class="ri-search-line"></i> Search</button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
