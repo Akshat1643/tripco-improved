@@ -8,7 +8,8 @@
     left: 10%;
     top: 74%;
     bottom: -5%;
-    padding: 4rem;
+    padding: 2rem;
+    height: 30%;
 }
 .calender-top{
     display: flex;
